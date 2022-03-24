@@ -87,6 +87,7 @@ function DiceComponent() {
     function resetGame() {
         randomizeAllDice();
         setEqualDice(false);
+        setCurrentSelected({set: false, value: 0});
     }
 
     return (
